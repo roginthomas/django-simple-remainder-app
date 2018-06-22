@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-lg-9">
+      
+      <h1>Appointment Reminders with Django</h1>
+
+
+      <p><a class="btn btn-primary btn-xs" href="{% url 'new_appointment' %}">Create a new Appointment</a></p>
+
+    </div>
+
+  </div><!--/row-->
+{% endblock %}
